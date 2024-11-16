@@ -9,4 +9,5 @@ print("your list is",index)
 rotation_number = int(input("enter the rotation number: "))
 newlist = index[-rotation_number:] + index[:-rotation_number]
 print(newlist,"is the new list")
+input("click any key to end")
 

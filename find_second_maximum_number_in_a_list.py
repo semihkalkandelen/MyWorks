@@ -16,6 +16,7 @@ while True:
         if len(mylist) == 1:
             value = mylist.pop()
             print(f"you enter only one number and it is: {value}")
+            input("click any key to end")
             break
         elif len(mylist) == 0:
             print("you did not enter any number.")
@@ -23,6 +24,7 @@ while True:
         else:
             mylist=sorted(mylist)
             print("second highest value you entered is: ", mylist[-2])
+            input("click any key to end")
         break
     else:
         print("please enter a valid value (x or a score)")

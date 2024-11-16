@@ -15,5 +15,7 @@ if price > 0:
     elif price >= 0:
         price = price*95/100
     print("after the discount, new price is",price)
+    input("click any key to end")
 else:
     print("invalid price")
+    input("click any key to end")

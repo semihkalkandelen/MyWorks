@@ -6,6 +6,7 @@ in the 3x+1 problem, no matter what number you start with, you will always event
 num = int(input("enter the number and I will show you how it is going to reach 1: "))
 while True:
     if num == 1:
+        input("click any key to end")
         break
     elif num % 2 == 0:
         print(f"{num} is even\n{num}/2 = ", int(num/2))

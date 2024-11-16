@@ -9,8 +9,11 @@ number1 = ((5*number**2-4)**(1/2))
 number2 = ((5*number**2+4)**(1/2))
 if number > 0:
     if number1 % 1 == 0  or number2 % 1 == 0:
-        print("your number is in Fibonacci Series.") 
+        print("your number is in Fibonacci Series.")
+        input("click any key to end")
     else:
         print("your number is not in Fibonacci Series.")
+        input("click any key to end")
 else:
     print("enter a valid number.")
+    input("click any key to end")

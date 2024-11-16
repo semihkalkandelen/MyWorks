@@ -13,5 +13,7 @@ for i in range(2,num):
         pass
 if count == num :
     print("number is perfect number")
+    input("click any key to end")
 else:
     print("number is not perfect number")
+    input("click any key to end")
